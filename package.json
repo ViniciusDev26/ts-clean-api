@@ -1,0 +1,23 @@
+{
+  "name": "ts-clean-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Carlos Vinicius <viniciusdev.26@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "start": "node dist/main/api"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^18.6.3",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2",
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
